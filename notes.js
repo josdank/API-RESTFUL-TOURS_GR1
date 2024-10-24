@@ -39,6 +39,9 @@
 
 
 
-// SPRINT 1
+// SPRINT 1 gestion de tours
 
-// Creación de endpoints
+//*  Creación de endpoints para listar tours
+//* Creación de endpoints para crear tours
+//* Creación de endpoints para actualizar tours
+//* Creación de endpoints para eliminar tours
