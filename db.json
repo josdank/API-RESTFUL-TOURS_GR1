@@ -1,7 +1,27 @@
 {
-    "tours":[{
-        "id":1,
-        "name": "Baños"
-    }],
-    "users":[]
+  "tours": [
+    {
+      "id": "1",
+      "name": "Baños"
+    },
+    {
+      "name": "Tour Cuenca",
+      "price": "100",
+      "status": "desactive",
+      "id": "6a927d15-50a5-4384-a20f-703bce50ed0d"
+    },
+    {
+      "name": "Tour Salinas",
+      "price": "300",
+      "status": "active",
+      "id": "82095784-d6ee-4ad9-b1a0-cfcc9505a4b3"
+    },
+    {
+      "id": "23335bff-826d-48d6-8be8-99944603d59c",
+      "name": "Tour Salinas",
+      "price": "200",
+      "status": "active"
+    }
+  ],
+  "users": []
 }
