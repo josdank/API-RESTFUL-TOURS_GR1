@@ -26,10 +26,11 @@ app.get('/',(req,res)=>{
 // RUTAS PARA EL TOUR
 app.use('/api', router)
 
-// RUTAS PARA EL USER
+// Rutas para tools
+app.use('/api',routerTools)
 
-
-//RUTAS PARA EL COKING
+//Ruta para usuarios
+app.use('/api',routerUsers)
 
 
 // Exportar la instancia de app 
