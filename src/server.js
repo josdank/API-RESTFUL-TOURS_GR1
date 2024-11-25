@@ -4,6 +4,8 @@
 import express from 'express'
 
 import router from './routers/tour_routes.js'
+import routerTools from './routers/tools_routes.js'
+import routerUsers from './routers/users_routes.js'
 
 
 //COMMMONJS
@@ -18,9 +20,9 @@ app.set('port', process.env.port || 3000)
 // MIDDLEWARES
 app.use(express.json())
 
-// RUTA PRINCIPAL
+// RUTA INICIO
 app.get('/',(req,res)=>{
-    res.send("ok")
+    res.send('OK')
 })
 
 // RUTAS PARA EL TOUR
